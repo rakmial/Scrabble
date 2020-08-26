@@ -1,4 +1,4 @@
-require('pry')
+require('set')
 
 class Scrabble
   def initialize(word)
