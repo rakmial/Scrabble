@@ -1,4 +1,4 @@
 require('pry')
 
-#class Scrabble
-#end
+class Scrabble
+end
