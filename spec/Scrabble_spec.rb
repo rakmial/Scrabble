@@ -3,7 +3,7 @@ require('Scrabble')
 
 describe('Scrabble') do
   it('must create new Scrabble objects from class Scrabble') do
-    expect(Scrabble.new.class).to(eq(Scrabble))
+    expect(Scrabble.new("").class).to(eq(Scrabble))
   end
   it('initializes with input "word", binds to instance var @word, defines reader method .word that returns @word') do
     expect(Scrabble.new("word").word).to(eq("word"))
