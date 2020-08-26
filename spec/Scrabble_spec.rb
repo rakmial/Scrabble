@@ -11,7 +11,7 @@ describe('Scrabble') do
   end
   it('contains class Hash var "scoring" containing key arrays of letters with \
     values score integers, .getscoring reader returns') do
-    expect(Scrabble.getscoring).to(eq({
+    expect(Scrabble.new("").getscoring).to(eq({
       ['A','E','I','O','U','L','N','R','S','T'] => 1,
       ['D','G'] => 2,
       ['B','C','M','P'] => 3,
