@@ -20,7 +20,10 @@ describe('Scrabble') do
       ['J','X'] => 8,
       ['Q','Z'] => 10
       }))
-  end    
+  end
+  it('returns word score with method .score()') do
+    expect(Scrabble.new("KICK").score).to(eq(14))
+  end
 end
   
   
